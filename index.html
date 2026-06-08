@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Sousa — Dados · BI · Tecnologia · Processos</title>
+  <meta name="description" content="Portfólio de Leonardo Sousa — Estudante de Sistemas de Informação em transição para Dados, BI e Tecnologia. Experiência prática em operações, SQL, Python, Power BI e análise de processos." />
+  <meta name="keywords" content="dados, BI, Power BI, SQL, Python, análise de dados, portfólio, estágio, tecnologia, processos" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme" data-theme="dark">
+
+  <!-- ===== NAV ===== -->
+  <header class="nav-wrapper" id="nav">
+    <nav class="nav" role="navigation" aria-label="Navegação principal">
+      <a href="#home" class="nav-logo" aria-label="Início">LS<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg">
+        <div class="grid-overlay" aria-hidden="true"></div>
+        <div class="orb orb-1" aria-hidden="true"></div>
+        <div class="orb orb-2" aria-hidden="true"></div>
+        <div class="orb orb-3" aria-hidden="true"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          Disponível para estágio
+        </div>
+        <h1 class="hero-title reveal" id="hero-title">
+          Leonardo<br /><span class="accent">Sousa</span>
+        </h1>
+        <p class="hero-subtitle reveal">
+          Estudante de Sistemas de Informação<br />
+          <span class="tags-inline">
+            <span>Dados</span><span>BI</span><span>Tecnologia</span><span>Processos</span>
+          </span>
+        </p>
+        <p class="hero-tagline reveal">
+          Transformando experiência operacional em soluções orientadas por dados, tecnologia e melhoria contínua.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+          <a href="#contato" class="btn btn-outline">Entrar em Contato</a>
+          <a href="#" class="btn btn-ghost" aria-label="Baixar currículo em PDF">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Currículo
+          </a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Anos de experiência</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">5º</span><span class="stat-label">Semestre · SI</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Ferramentas</span></div>
+        </div>
+      </div>
+      <a href="#sobre" class="scroll-indicator" aria-label="Role para baixo">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section sobre" id="sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <div class="section-label reveal">01 — Sobre mim</div>
+        <div class="sobre-grid">
+          <div class="sobre-text reveal">
+            <h2 id="sobre-title" class="section-title">Da operação para<br /><span class="accent">dados e tecnologia.</span></h2>
+            <p>Sou Leonardo Sousa, estudante de Sistemas de Informação pela UNIP e profissional em transição para a área de dados, BI e tecnologia. Minha trajetória começou na prática — acompanhando indicadores operacionais, validando informações, organizando fluxos e apoiando decisões em ambientes de alta demanda.</p>
+            <p>Essa experiência me deu uma perspectiva valiosa: entendo processos de dentro para fora. Hoje, aplico esse olhar prático combinado a habilidades em SQL, Python, Power BI e análise de dados para transformar informações brutas em insights que geram eficiência real e apoiam decisões estratégicas.</p>
+            <p>Meu objetivo é contribuir com equipes que usam dados e tecnologia para resolver problemas reais de negócio — seja em analytics, BI, automação de processos ou melhoria contínua.</p>
+            <div class="sobre-highlights">
+              <div class="highlight-item">
+                <span class="hi-icon">⚡</span>
+                <span>Visão prática de ponta a ponta em processos operacionais</span>
+              </div>
+              <div class="highlight-item">
+                <span class="hi-icon">📊</span>
+                <span>Experiência real com indicadores, KPIs e relatórios gerenciais</span>
+              </div>
+              <div class="highlight-item">
+                <span class="hi-icon">🔄</span>
+                <span>Foco em melhoria contínua, automação e ganho de eficiência</span>
+              </div>
+            </div>
+          </div>
+          <div class="sobre-visual reveal">
+            <div class="profile-card">
+              <div class="profile-avatar" aria-hidden="true">
+                <div class="avatar-inner">LS</div>
+                <div class="avatar-ring"></div>
+              </div>
+              <div class="profile-info">
+                <h3>Leonardo Sousa</h3>
+                <p>Sistemas de Informação · UNIP</p>
+              </div>
+              <ul class="profile-details" role="list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  São Paulo — SP
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                  Dados · BI · Processos
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  Conclusão: Dez/2027
+                </li>
+              </ul>
+              <div class="profile-langs">
+                <span class="lang-badge">PT-BR nativo</span>
+                <span class="lang-badge">EN B1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJETOS ===== -->
+    <section class="section projetos" id="projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <div class="section-label reveal">02 — Projetos</div>
+        <h2 id="projetos-title" class="section-title reveal">Estudos de caso<br /><span class="accent">e projetos práticos.</span></h2>
+        <p class="section-desc reveal">Projetos que combinam análise de dados, automação e visão de processos para resolver problemas reais.</p>
+
+        <div class="projects-grid">
+
+          <!-- Projeto 1 -->
+          <article class="project-card reveal" tabindex="0" aria-label="Projeto: Dashboard Operacional de Logística">
+            <div class="card-header">
+              <div class="card-icon" aria-hidden="true">📦</div>
+              <div class="card-tags">
+                <span>Power BI</span><span>SQL</span><span>Excel</span>
+              </div>
+            </div>
+            <h3 class="card-title">Dashboard Operacional de Logística</h3>
+            <p class="card-desc">Visualização de KPIs de entrega, volumes, rotas e prazos para apoio à tomada de decisão operacional em tempo real.</p>
+            <div class="card-case">
+              <div class="case-item">
+                <strong>Problema</strong>
+                <p>Ausência de visibilidade centralizada sobre indicadores de desempenho operacional — gestores tomavam decisões sem dados consolidados.</p>
+              </div>
+              <div class="case-item">
+                <strong>Solução</strong>
+                <p>Estruturação de base de dados, tratamento de informações e criação de dashboard interativo com filtros por região, período e operador.</p>
+              </div>
+              <div class="case-item">
+                <strong>Resultado</strong>
+                <p>Redução do tempo de análise operacional e identificação proativa de gargalos, apoiando ajustes de rota e melhoria no SLA.</p>
+              </div>
+            </div>
+            <button class="btn btn-card" onclick="openCase(0)" aria-label="Ver estudo de caso do Dashboard Operacional">Ver estudo de caso →</button>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="project-card reveal" tabindex="0" aria-label="Projeto: Automação de Relatórios com Python">
+            <div class="card-header">
+              <div class="card-icon" aria-hidden="true">🐍</div>
+              <div class="card-tags">
+                <span>Python</span><span>Pandas</span><span>Automação</span>
+              </div>
+            </div>
+            <h3 class="card-title">Automação de Relatórios com Python</h3>
+            <p class="card-desc">Script de automação para limpeza, padronização e geração de relatórios a partir de bases de dados exportadas de sistemas operacionais.</p>
+            <div class="card-case">
+              <div class="case-item">
+                <strong>Problema</strong>
+                <p>Processo manual e repetitivo de tratamento de planilhas consumia horas semanais da equipe, com alto risco de erros humanos.</p>
+              </div>
+              <div class="case-item">
+                <strong>Solução</strong>
+                <p>Desenvolvimento de pipeline em Python com Pandas para leitura, limpeza, validação e exportação automatizada dos dados consolidados.</p>
+              </div>
+              <div class="case-item">
+                <strong>Resultado</strong>
+                <p>Eliminação de retrabalho e redução drástica no tempo de geração dos relatórios, com maior confiabilidade das informações.</p>
+              </div>
+            </div>
+            <button class="btn btn-card" onclick="openCase(1)" aria-label="Ver estudo de caso da Automação de Relatórios">Ver estudo de caso →</button>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="project-card reveal" tabindex="0" aria-label="Projeto: Análise e Mapeamento de Banco de Dados">
+            <div class="card-header">
+              <div class="card-icon" aria-hidden="true">🗄️</div>
+              <div class="card-tags">
+                <span>SQL</span><span>BD Relacional</span><span>ETL</span>
+              </div>
+            </div>
+            <h3 class="card-title">Análise e Mapeamento de Banco de Dados</h3>
+            <p class="card-desc">Mapeamento, documentação e organização de estrutura de banco de dados relacional para suporte a sistemas de gestão de eventos.</p>
+            <div class="card-case">
+              <div class="case-item">
+                <strong>Problema</strong>
+                <p>Banco de dados sem documentação adequada, com inconsistências de dados e dificuldade de manutenção por novos membros da equipe.</p>
+              </div>
+              <div class="case-item">
+                <strong>Solução</strong>
+                <p>Auditoria completa das tabelas, normalização de dados, criação de dicionário de dados e consultas SQL otimizadas para operações críticas.</p>
+              </div>
+              <div class="case-item">
+                <strong>Resultado</strong>
+                <p>Melhoria na integridade dos dados, redução de incidentes sistêmicos e documentação clara para manutenção futura do banco.</p>
+              </div>
+            </div>
+            <button class="btn btn-card" onclick="openCase(2)" aria-label="Ver estudo de caso da Análise de Banco de Dados">Ver estudo de caso →</button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HABILIDADES ===== -->
+    <section class="section habilidades" id="habilidades" aria-labelledby="habilidades-title">
+      <div class="container">
+        <div class="section-label reveal">03 — Habilidades</div>
+        <h2 id="habilidades-title" class="section-title reveal">Stack técnico<br /><span class="accent">e competências.</span></h2>
+
+        <div class="skills-grid">
+
+          <div class="skill-group reveal">
+            <div class="skill-group-header">
+              <span class="skill-group-icon" aria-hidden="true">📊</span>
+              <h3>Dados &amp; BI</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item"><span class="skill-name">SQL</span><div class="skill-bar"><div class="skill-fill" data-fill="85"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Python (Análise)</span><div class="skill-bar"><div class="skill-fill" data-fill="70"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Power BI</span><div class="skill-bar"><div class="skill-fill" data-fill="75"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Excel Avançado</span><div class="skill-bar"><div class="skill-fill" data-fill="80"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Google Sheets</span><div class="skill-bar"><div class="skill-fill" data-fill="80"></div></div></div>
+              <div class="skill-item"><span class="skill-name">ETL / Tratamento</span><div class="skill-bar"><div class="skill-fill" data-fill="70"></div></div></div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <div class="skill-group-header">
+              <span class="skill-group-icon" aria-hidden="true">💻</span>
+              <h3>Tecnologia &amp; BD</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item"><span class="skill-name">Banco de Dados Relacional</span><div class="skill-bar"><div class="skill-fill" data-fill="78"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Python (Automação)</span><div class="skill-bar"><div class="skill-fill" data-fill="68"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Machine Learning básico</span><div class="skill-bar"><div class="skill-fill" data-fill="45"></div></div></div>
+              <div class="skill-item"><span class="skill-name">IA aplicada</span><div class="skill-bar"><div class="skill-fill" data-fill="55"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Governança de Dados</span><div class="skill-bar"><div class="skill-fill" data-fill="60"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Suporte Técnico</span><div class="skill-bar"><div class="skill-fill" data-fill="85"></div></div></div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <div class="skill-group-header">
+              <span class="skill-group-icon" aria-hidden="true">⚙️</span>
+              <h3>Processos &amp; Negócios</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item"><span class="skill-name">Gestão de Processos</span><div class="skill-bar"><div class="skill-fill" data-fill="82"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Melhoria Contínua</span><div class="skill-bar"><div class="skill-fill" data-fill="80"></div></div></div>
+              <div class="skill-item"><span class="skill-name">KPIs / Indicadores</span><div class="skill-bar"><div class="skill-fill" data-fill="80"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Análise de Negócios</span><div class="skill-bar"><div class="skill-fill" data-fill="72"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Documentação</span><div class="skill-bar"><div class="skill-fill" data-fill="78"></div></div></div>
+              <div class="skill-item"><span class="skill-name">Relatórios Gerenciais</span><div class="skill-bar"><div class="skill-fill" data-fill="80"></div></div></div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <div class="skill-group-header">
+              <span class="skill-group-icon" aria-hidden="true">🤝</span>
+              <h3>Competências comportamentais</h3>
+            </div>
+            <div class="soft-skills">
+              <span class="soft-tag">Capacidade analítica</span>
+              <span class="soft-tag">Resolução de problemas</span>
+              <span class="soft-tag">Comunicação</span>
+              <span class="soft-tag">Organização</span>
+              <span class="soft-tag">Adaptabilidade</span>
+              <span class="soft-tag">Aprendizado contínuo</span>
+              <span class="soft-tag">Trabalho em equipe</span>
+              <span class="soft-tag">Proatividade</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIÊNCIA ===== -->
+    <section class="section experiencia" id="experiencia" aria-labelledby="experiencia-title">
+      <div class="container">
+        <div class="section-label reveal">04 — Experiência</div>
+        <h2 id="experiencia-title" class="section-title reveal">Trajetória<br /><span class="accent">profissional.</span></h2>
+
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Assistente de Tecnologia &amp; Administrador de BD</h3>
+                  <p class="timeline-company">Moriá Formatura</p>
+                </div>
+                <span class="timeline-period">2023 — atual</span>
+              </div>
+              <p class="timeline-desc">Atuação com sistemas e softwares de eventos, suporte técnico a usuários e resolução de incidentes em tempo real. Administração de banco de dados relacional com SQL, organização de informações, geração de relatórios operacionais e melhoria de rotinas tecnológicas da empresa.</p>
+              <div class="timeline-tags">
+                <span>SQL</span><span>Banco de Dados</span><span>Suporte TI</span><span>Relatórios</span><span>Processos</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Auxiliar Operacional</h3>
+                  <p class="timeline-company">Total Express</p>
+                </div>
+                <span class="timeline-period">2022 — 2023</span>
+              </div>
+              <p class="timeline-desc">Acompanhamento de indicadores operacionais, validação de informações, controle de rotas, volumes, endereços e prazos. Análise de gargalos logísticos, comunicação com gestores e equipes, melhoria de fluxos operacionais e apoio à tomada de decisão com base em dados.</p>
+              <div class="timeline-tags">
+                <span>KPIs</span><span>Indicadores</span><span>Processos</span><span>Análise</span><span>Logística</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FORMAÇÃO ===== -->
+    <section class="section formacao" id="formacao" aria-labelledby="formacao-title">
+      <div class="container">
+        <div class="section-label reveal">05 — Formação</div>
+        <h2 id="formacao-title" class="section-title reveal">Educação &amp;<br /><span class="accent">desenvolvimento.</span></h2>
+
+        <div class="formacao-grid">
+
+          <div class="formacao-card grad-card reveal">
+            <div class="formacao-icon" aria-hidden="true">🎓</div>
+            <div class="formacao-info">
+              <h3>Bacharelado em Sistemas de Informação</h3>
+              <p class="formacao-inst">Universidade Paulista — UNIP</p>
+              <p class="formacao-detail">5º semestre · Período noturno · Conclusão: Dez/2027</p>
+            </div>
+            <div class="formacao-status ongoing">Em andamento</div>
+          </div>
+
+          <div class="formacao-card reveal">
+            <div class="formacao-icon" aria-hidden="true">📜</div>
+            <div class="formacao-info">
+              <h3>Google Data Analytics Certificate</h3>
+              <p class="formacao-inst">Google / Coursera</p>
+              <p class="formacao-detail">190 horas · Análise de dados, visualização, SQL, R</p>
+            </div>
+            <div class="formacao-status ongoing">Em andamento</div>
+          </div>
+
+          <div class="formacao-card reveal">
+            <div class="formacao-icon" aria-hidden="true">🌐</div>
+            <div class="formacao-info">
+              <h3>Inglês Intermediário</h3>
+              <p class="formacao-inst">Nível B1</p>
+              <p class="formacao-detail">Leitura técnica, comunicação profissional</p>
+            </div>
+            <div class="formacao-status ongoing">Em andamento</div>
+          </div>
+
+          <div class="formacao-card reveal">
+            <div class="formacao-icon" aria-hidden="true">🚀</div>
+            <div class="formacao-info">
+              <h3>Desenvolvimento Contínuo</h3>
+              <p class="formacao-inst">Plataformas diversas</p>
+              <p class="formacao-detail">SQL · Python · Power BI · Excel · IA · Analytics · Automação</p>
+            </div>
+            <div class="formacao-status continuo">Contínuo</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section contato" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <div class="section-label reveal">06 — Contato</div>
+        <h2 id="contato-title" class="section-title reveal">Vamos<br /><span class="accent">conversar?</span></h2>
+        <p class="section-desc reveal">Estou disponível para oportunidades de estágio em dados, BI, tecnologia, processos e analytics. Adoraria ouvir sobre sua empresa.</p>
+
+        <div class="contato-grid">
+
+          <div class="contato-info reveal">
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <p class="contact-label">E-mail</p>
+                <!-- EDITE: substitua pelo seu e-mail -->
+                <a href="mailto:leonardosousa@email.com" class="contact-value">leonardosousa@email.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <p class="contact-label">LinkedIn</p>
+                <!-- EDITE: substitua pelo seu LinkedIn -->
+                <a href="https://linkedin.com/in/leonardosousa" target="_blank" rel="noopener noreferrer" class="contact-value">linkedin.com/in/leonardosousa</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <p class="contact-label">Localização</p>
+                <span class="contact-value">São Paulo — SP, Brasil</span>
+              </div>
+            </div>
+            <div class="contact-cta-box">
+              <p>👋 Se você é recrutador ou gestor de uma empresa que busca alguém com visão de processos <strong>e</strong> fome por dados, vamos trocar uma ideia.</p>
+            </div>
+          </div>
+
+          <div class="contato-form reveal">
+            <form id="contactForm" novalidate aria-label="Formulário de contato">
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome completo" autocomplete="name" required aria-required="true" />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email" required aria-required="true" />
+              </div>
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Ex: Oportunidade de estágio" required aria-required="true" />
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte um pouco sobre a oportunidade ou dúvida..." required aria-required="true"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Enviar mensagem →</button>
+              <p class="form-note" id="formNote" role="alert" aria-live="polite"></p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <span class="footer-logo">LS<span class="dot">.</span></span>
+      <p class="footer-copy">© 2025 Leonardo Sousa · São Paulo, SP</p>
+      <div class="footer-links">
+        <!-- EDITE: substitua os hrefs pelos seus links reais -->
+        <a href="https://linkedin.com/in/leonardosousa" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Leonardo Sousa">LinkedIn</a>
+        <a href="https://github.com/leonardosousa" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Leonardo Sousa">GitHub</a>
+        <a href="#" aria-label="Baixar currículo">Currículo</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== MODAL ESTUDO DE CASO ===== -->
+  <div class="modal-overlay" id="caseModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Fechar estudo de caso">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-top" id="backTop" aria-label="Voltar ao topo" hidden>↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
